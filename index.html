@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>Chaos Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="preset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Chaos Game
+      </h1>
+      <h3>
+        <a
+          href="https://www.youtube.com/watch?v=kbKtFN71Lfs"
+          style="color: #87ceeb"
+          >Sierpinski triangle</a
+        >
+      </h3>
+      <p id="cnt"></p>
+    </header>
+
+    <div>
+      <canvas id="chaos" width="500" height="420"></canvas>
+      <div class="control">
+        <button onclick="start()">Start</button>
+        <button id="reset" onclick="location.reload()">Reset</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created by
+        <a
+          href="https://www.github.com/daviz00/Chaos-ACMT2"
+          style="color: #FFA500"
+          ><b>DEVANSH AGARWAL</b></a
+        >
+        for BITS-ACM Task-2
+      </p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
